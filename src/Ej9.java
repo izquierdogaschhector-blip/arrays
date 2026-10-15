@@ -6,9 +6,9 @@ public class Ej9 {
 
         for (int i = 0; i < num.length; i++) {
             if (num[i] % 2 == 0) {
-                numerospares++;
+                numerospares += num[i];
             }else{
-                numerosimpares++;
+                numerosimpares += num[i];
             }
         }
     }
